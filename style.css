@@ -552,6 +552,12 @@ body:has(.card:hover) .cursor { background: var(--gold-pale); }
   font-size: 0.95rem;
   color: var(--ink);
 }
+.detail-link {
+  color: var(--rust);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.detail-link:hover { border-color: var(--rust); }
 
 /* ── CONTACT ── */
 .contact {

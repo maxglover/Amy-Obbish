@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amy Obbish — Artist</title>
+  <title>Amy Obbish — Abstract Artist</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Bebas+Neue&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
@@ -11,11 +11,11 @@
 </head>
 <body>
 
-  <!-- ── CURSOR ── -->
+  <!-- CURSOR -->
   <div class="cursor" id="cursor"></div>
   <div class="cursor-follower" id="cursorFollower"></div>
 
-  <!-- ── NAV ── -->
+  <!-- NAV -->
   <nav class="nav" id="nav">
     <a class="nav__logo" href="#hero">AO</a>
     <ul class="nav__links">
@@ -28,7 +28,7 @@
     </button>
   </nav>
 
-  <!-- ── MOBILE MENU ── -->
+  <!-- MOBILE MENU -->
   <div class="mobile-menu" id="mobileMenu">
     <ul>
       <li><a href="#gallery" class="mobile-link">Work</a></li>
@@ -37,159 +37,159 @@
     </ul>
   </div>
 
-  <!-- ── HERO ── -->
+  <!-- HERO -->
   <section class="hero" id="hero">
     <div class="hero__bg-text">AMY</div>
     <div class="hero__content">
-      <p class="hero__eyebrow">Contemporary Artist</p>
+      <p class="hero__eyebrow">Abstract Artist</p>
       <h1 class="hero__name">
         <span class="hero__first">Amy</span>
         <span class="hero__last">Obbish</span>
       </h1>
-      <p class="hero__tagline">Paint, Canvas & Mixed Media</p>
+      <p class="hero__tagline">Watercolor &amp; Mixed Media</p>
       <a href="#gallery" class="hero__cta">View Collection <span class="arrow">↓</span></a>
     </div>
     <div class="hero__scroll-line"></div>
   </section>
 
-  <!-- ── MARQUEE ── -->
+  <!-- MARQUEE -->
   <div class="marquee" aria-hidden="true">
     <div class="marquee__track">
-      <span>Painting</span><span>·</span>
+      <span>Abstract</span><span>·</span>
+      <span>Watercolor</span><span>·</span>
       <span>Mixed Media</span><span>·</span>
-      <span>Photography</span><span>·</span>
-      <span>Video</span><span>·</span>
-      <span>Installation</span><span>·</span>
-      <span>Drawing</span><span>·</span>
-      <span>Painting</span><span>·</span>
+      <span>Fluid Forms</span><span>·</span>
+      <span>Color &amp; Light</span><span>·</span>
+      <span>Process</span><span>·</span>
+      <span>Abstract</span><span>·</span>
+      <span>Watercolor</span><span>·</span>
       <span>Mixed Media</span><span>·</span>
-      <span>Photography</span><span>·</span>
-      <span>Video</span><span>·</span>
-      <span>Installation</span><span>·</span>
-      <span>Drawing</span><span>·</span>
+      <span>Fluid Forms</span><span>·</span>
+      <span>Color &amp; Light</span><span>·</span>
+      <span>Process</span><span>·</span>
     </div>
   </div>
 
-  <!-- ── GALLERY ── -->
+  <!-- GALLERY -->
   <section class="gallery" id="gallery">
     <div class="gallery__header">
       <h2 class="section-title">Selected Works</h2>
       <div class="gallery__filters" id="filters">
         <button class="filter-btn active" data-filter="all">All</button>
         <button class="filter-btn" data-filter="painting">Painting</button>
-        <button class="filter-btn" data-filter="mixed-media">Mixed Media</button>
-        <button class="filter-btn" data-filter="photography">Photography</button>
         <button class="filter-btn" data-filter="video">Video</button>
       </div>
     </div>
 
-    <!-- 
-      ══════════════════════════════════════════════════
-      HOW TO ADD YOUR ARTWORK:
-      
-      Images: Place files in the /images/ folder.
-      Videos: Place files in the /videos/ folder.
-      
-      Then add a card below using one of these templates:
-
-      IMAGE card:
-      <article class="card" data-category="painting">
-        <div class="card__media">
-          <img src="images/your-image.jpg" alt="Title of Work" loading="lazy" />
-        </div>
-        <div class="card__info">
-          <h3>Title of Work</h3>
-          <p>Medium, Year</p>
-        </div>
-      </article>
-
-      VIDEO card:
-      <article class="card card--video" data-category="video">
-        <div class="card__media">
-          <video src="videos/your-video.mp4" loop muted playsinline></video>
-          <div class="card__play-icon">▶</div>
-        </div>
-        <div class="card__info">
-          <h3>Title of Work</h3>
-          <p>Video, Year</p>
-        </div>
-      </article>
-      ══════════════════════════════════════════════════
-    -->
-
     <div class="gallery__grid" id="galleryGrid">
 
-      <!-- PLACEHOLDER CARDS — replace with your real artwork -->
-      <article class="card card--tall" data-category="painting">
-        <div class="card__media card__placeholder">
-          <div class="placeholder__icon">🖼</div>
-          <p class="placeholder__label">painting-01.jpg</p>
+      <!-- Painting 1: yellow-green wave (landscape orientation) -->
+      <article class="card card--wide" data-category="painting">
+        <div class="card__media">
+          <img src="images/painting-01.jpg" alt="Untitled No. 1 — Watercolor" loading="lazy" />
         </div>
         <div class="card__info">
           <h3>Untitled No. 1</h3>
-          <p>Oil on Canvas, 2024</p>
+          <p>Watercolor on Paper</p>
         </div>
       </article>
 
-      <article class="card" data-category="photography">
-        <div class="card__media card__placeholder">
-          <div class="placeholder__icon">📷</div>
-          <p class="placeholder__label">photo-01.jpg</p>
+      <!-- Painting 3: close-up detail (portrait orientation) -->
+      <article class="card card--tall" data-category="painting">
+        <div class="card__media">
+          <img src="images/painting-03.jpg" alt="Untitled No. 3 — Watercolor detail" loading="lazy" />
         </div>
         <div class="card__info">
-          <h3>Study in Light</h3>
-          <p>Photography, 2024</p>
+          <h3>Untitled No. 3</h3>
+          <p>Watercolor on Paper</p>
         </div>
       </article>
 
-      <article class="card card--wide" data-category="mixed-media">
-        <div class="card__media card__placeholder">
-          <div class="placeholder__icon">🎨</div>
-          <p class="placeholder__label">mixed-01.jpg</p>
-        </div>
-        <div class="card__info">
-          <h3>Fragmented</h3>
-          <p>Mixed Media, 2023</p>
-        </div>
-      </article>
-
-      <article class="card card--video" data-category="video">
-        <div class="card__media card__placeholder">
-          <div class="placeholder__icon">🎬</div>
-          <p class="placeholder__label">video-01.mp4</p>
-        </div>
-        <div class="card__info">
-          <h3>Motion Study</h3>
-          <p>Video, 2024</p>
-        </div>
-      </article>
-
+      <!-- Painting 2: colorful abstract -->
       <article class="card" data-category="painting">
-        <div class="card__media card__placeholder">
-          <div class="placeholder__icon">🖼</div>
-          <p class="placeholder__label">painting-02.jpg</p>
+        <div class="card__media">
+          <img src="images/painting-02.jpg" alt="Untitled No. 2 — Watercolor" loading="lazy" />
         </div>
         <div class="card__info">
-          <h3>Depth of Field</h3>
-          <p>Acrylic on Canvas, 2023</p>
+          <h3>Untitled No. 2</h3>
+          <p>Watercolor on Paper</p>
         </div>
       </article>
 
-      <article class="card card--tall" data-category="mixed-media">
-        <div class="card__media card__placeholder">
-          <div class="placeholder__icon">🎨</div>
-          <p class="placeholder__label">mixed-02.jpg</p>
+      <!-- Video 1: abstract ink process -->
+      <article class="card card--video" data-category="video">
+        <div class="card__media">
+          <video
+            src="https://videos.pexels.com/video-files/4379020/4379020-hd_1920_1080_30fps.mp4"
+            loop muted playsinline
+            poster="https://images.pexels.com/videos/4379020/pexels-photo-4379020.jpeg?auto=compress&cs=tinysrgb&h=400&fit=crop&w=600"
+          ></video>
+          <div class="card__play-icon">▶</div>
         </div>
         <div class="card__info">
-          <h3>Archive II</h3>
-          <p>Mixed Media, 2022</p>
+          <h3>Color Study I</h3>
+          <p>Process Video</p>
         </div>
       </article>
+
+      <!-- Painting 4: deep red/blue wash (landscape) -->
+      <article class="card card--wide" data-category="painting">
+        <div class="card__media">
+          <img src="images/painting-04.jpg" alt="Untitled No. 4 — Watercolor" loading="lazy" />
+        </div>
+        <div class="card__info">
+          <h3>Untitled No. 4</h3>
+          <p>Watercolor on Paper</p>
+        </div>
+      </article>
+
+      <!-- Video 2: watercolor paint mixing process -->
+      <article class="card card--video" data-category="video">
+        <div class="card__media">
+          <video
+            src="https://videos.pexels.com/video-files/3045163/3045163-hd_1920_1080_25fps.mp4"
+            loop muted playsinline
+            poster="https://images.pexels.com/videos/3045163/pexels-photo-3045163.jpeg?auto=compress&cs=tinysrgb&h=400&fit=crop&w=600"
+          ></video>
+          <div class="card__play-icon">▶</div>
+        </div>
+        <div class="card__info">
+          <h3>Color Study II</h3>
+          <p>Process Video</p>
+        </div>
+      </article>
+
+      <!--
+        ADD MORE ARTWORK:
+
+        Image card:
+        <article class="card" data-category="painting">
+          <div class="card__media">
+            <img src="images/your-file.jpg" alt="Title" loading="lazy" />
+          </div>
+          <div class="card__info">
+            <h3>Title</h3>
+            <p>Medium, Year</p>
+          </div>
+        </article>
+
+        Your own video card:
+        <article class="card card--video" data-category="video">
+          <div class="card__media">
+            <video src="videos/your-video.mp4" loop muted playsinline></video>
+            <div class="card__play-icon">▶</div>
+          </div>
+          <div class="card__info">
+            <h3>Title</h3>
+            <p>Video, Year</p>
+          </div>
+        </article>
+      -->
 
     </div>
   </section>
 
-  <!-- ── LIGHTBOX ── -->
+  <!-- LIGHTBOX -->
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Artwork viewer">
     <button class="lightbox__close" id="lightboxClose" aria-label="Close">✕</button>
     <button class="lightbox__prev" id="lightboxPrev" aria-label="Previous">‹</button>
@@ -198,7 +198,7 @@
     <div class="lightbox__caption" id="lightboxCaption"></div>
   </div>
 
-  <!-- ── ABOUT ── -->
+  <!-- ABOUT -->
   <section class="about" id="about">
     <div class="about__grid">
       <div class="about__image-col">
@@ -215,58 +215,62 @@
         <h2 class="about__heading">Amy<br/><em>Obbish</em></h2>
         <div class="about__bio">
           <p>
-            Amy Obbish is a contemporary artist whose practice spans painting, mixed media, 
-            and new media. Drawing on the tension between the tactile and the ephemeral, 
-            her work investigates memory, materiality, and the architecture of perception.
+            Amy Obbish is an abstract artist working in watercolor and mixed media.
+            Her practice explores the unpredictable — the bloom of pigment into wet paper,
+            the tension between control and release, the landscapes that emerge when
+            color is allowed to find its own form.
           </p>
           <p>
-            Based in Chicago, Amy has exhibited widely and maintains a studio practice 
-            that embraces both traditional and experimental approaches to image-making.
+            Each piece is an investigation of fluid dynamics and organic abstraction,
+            building worlds from the edge of intention. Her work lives in the space
+            between observation and intuition.
           </p>
-          <p class="about__bio--edit"><em>Edit this text in <code>index.html</code> → the About section.</em></p>
         </div>
         <div class="about__details">
           <div class="about__detail">
-            <span class="detail-label">Based in</span>
-            <span class="detail-value">Chicago, IL</span>
-          </div>
-          <div class="about__detail">
             <span class="detail-label">Medium</span>
-            <span class="detail-value">Paint, Film, Mixed</span>
+            <span class="detail-value">Watercolor &amp; Mixed Media</span>
           </div>
           <div class="about__detail">
-            <span class="detail-label">Available for</span>
-            <span class="detail-value">Commissions & Exhibitions</span>
+            <span class="detail-label">Instagram</span>
+            <span class="detail-value">
+              <a href="https://www.instagram.com/amyobbish/" target="_blank" rel="noopener" class="detail-link">@amyobbish</a>
+            </span>
+          </div>
+          <div class="about__detail">
+            <span class="detail-label">Newsletter</span>
+            <span class="detail-value">
+              <a href="https://tr.ee/Y3n3LaAIed" target="_blank" rel="noopener" class="detail-link">Join the email list</a>
+            </span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── CONTACT ── -->
+  <!-- CONTACT -->
   <section class="contact" id="contact">
     <div class="contact__inner">
-      <p class="contact__eyebrow">Get in Touch</p>
+      <p class="contact__eyebrow">Stay Connected</p>
       <h2 class="contact__heading">Let's<br/><em>Connect</em></h2>
       <p class="contact__sub">
-        For inquiries, commissions, or exhibition proposals.
+        Follow the work, join the list, or reach out on Instagram.
       </p>
-      <a href="mailto:amy@example.com" class="contact__email">
-        amy@example.com
+      <a href="https://tr.ee/Y3n3LaAIed" target="_blank" rel="noopener" class="contact__email">
+        Join the Email List →
       </a>
       <div class="contact__socials">
-        <a href="#" aria-label="Instagram">Instagram</a>
-        <a href="#" aria-label="Behance">Behance</a>
-        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://www.instagram.com/amyobbish/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
       </div>
-      <p class="contact__note"><em>Update the email and social links in <code>index.html</code>.</em></p>
     </div>
   </section>
 
-  <!-- ── FOOTER ── -->
+  <!-- FOOTER -->
   <footer class="footer">
     <p>© <span id="year"></span> Amy Obbish. All rights reserved.</p>
-    <p class="footer__credit">Crafted with care.</p>
+    <p class="footer__credit">
+      <a href="https://www.instagram.com/amyobbish/" target="_blank" rel="noopener" style="color:inherit;opacity:0.6;">@amyobbish</a>
+    </p>
   </footer>
 
   <script src="main.js"></script>
